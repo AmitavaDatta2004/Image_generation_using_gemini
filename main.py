@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 
 
-genai.configure(api_key=os.environ['AIzaSyClHSfBIJa47256KA5A47TjHyvbVQFH9c8'])
+genai.configure(api_key=os.environ['API_KEY'])
 
 imagen = genai.ImageGenerationModel("imagen-3.0-generate-001")
 
